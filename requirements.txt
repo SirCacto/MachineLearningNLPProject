@@ -10,3 +10,4 @@ tqdm
 kaggle
 transformers
 google
+streamlit
