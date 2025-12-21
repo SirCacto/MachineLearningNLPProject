@@ -19,7 +19,7 @@ df = df.rename(columns={'data': 'text', 'labels': 'category'})
 train_df, temp_df = train_test_split(df, test_size=0.2, random_state=42) #Uses the same random state we used when training
 val_df, test_df = train_test_split(temp_df, test_size=0.5, random_state=42)
 
-print(f"Test set size: {len(test_df)} samples.")
+print(f"\nTest set size: {len(test_df)} samples.")
 
 def predict(text): #Prediction function
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512)

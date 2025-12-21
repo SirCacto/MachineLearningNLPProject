@@ -1,6 +1,7 @@
 import streamlit as st
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
+import matplotlib.pyplot as plt
 
 
 st.set_page_config(page_title="BBC News Classifier", page_icon="🗞️") #Page Config
@@ -19,8 +20,7 @@ model, tokenizer = load_model()
 
 label_map = {0: "Entertainment", 1: "Business", 2: "Sport", 3: "Politics", 4: "Tech"} #Label map
 
-# --- 4. THE INTERFACE ---
-user_input = st.text_area("Enter news text here:", placeholder="e.g., Congress just passed a new law. Here's what you need to know...")
+user_input = st.text_area("Enter News Text Here:", placeholder="e.g., Congress just passed a new law. Here's what you need to know...") #Interface
 
 if st.button("Determine News"):
     if user_input.strip() == "":
