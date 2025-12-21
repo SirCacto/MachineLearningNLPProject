@@ -97,3 +97,11 @@ live_headline = "Ar ar ar ar ar ar ar ar." #Absolute gibberish to see how the mo
 guess, conf = predict(live_headline)
 print(f"Headline: {live_headline}")
 print(f"Prediction: {label_map[guess]} ({conf:.2f}% confidence)")
+
+
+
+live_headline = "Football" #Football
+
+guess, conf = predict(live_headline)
+print(f"Headline: {live_headline}")
+print(f"Prediction: {label_map[guess]} ({conf:.2f}% confidence)")
