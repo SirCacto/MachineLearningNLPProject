@@ -1,3 +1,5 @@
+#This test file is only for BERT's tests
+
 import torch
 import pandas as pd
 from transformers import AutoModelForSequenceClassification, AutoTokenizer

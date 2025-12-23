@@ -1,3 +1,5 @@
+#Here's code for if you want to run the Streamlit app locally. Make sure to install all of the requirements!
+
 import streamlit as st
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
