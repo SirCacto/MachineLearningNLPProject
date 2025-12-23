@@ -11,9 +11,9 @@ st.markdown("Please enter a news headline or article below to see which category
 
 @st.cache_resource
 def load_model(): #Loads the cached model and tokenizer
-    model_path = "SirCacto/NLPBERTDec25"
+    model_path = "models/Bert Model"
     model = AutoModelForSequenceClassification.from_pretrained(model_path)
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
     return model, tokenizer
 
 model, tokenizer = load_model()
