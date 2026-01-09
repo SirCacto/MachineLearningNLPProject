@@ -17,7 +17,7 @@ I've written a lovely report to go alongside all of this! The PDF can be found i
 
 As I'm still relatively new to the world of machine learning, I apologize if I've made any missteps or gaps in my judgment. Additionally, while I believe I've cited anything correctly, please let me know if I've made any mistakes. I wouldn't be here without all of those helpful sources.
 
-I've deployed the BERT model to Streamlit. Go ahead — try it out! Link: https://oq4zyh8wx5jpwaky4bkqbl.streamlit.app/
+I've deployed the BERT model to Streamlit. Go ahead — try it out! Link: https://machinelearningnlpproject.streamlit.app/
 
 I've also uploaded the BERT model to Hugging Face. This was mainly to store it in the cloud for the Streamlit website. If you want to check it out, here it is: https://huggingface.co/SirCacto/NLPBERTDec25
 
